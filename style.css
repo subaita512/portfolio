@@ -12,8 +12,6 @@ nav {
 
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 12px 0;
 }
 
@@ -48,6 +46,38 @@ ul li a {
     font-weight: bold;
     font-size: 22px;
     color: white;
-    border:none;
+    border: none;
+cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+  
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.hero-left-p1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.outline-btn{
+    background-color:white;
+    padding: 10px 2px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: purple;
+    border: 1px solid purple;
+    cursor: pointer;
 
 }
